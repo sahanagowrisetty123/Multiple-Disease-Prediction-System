@@ -23,7 +23,7 @@ Follow these simple steps to run the project on your local machine:
 1. **Install Required Libraries:**
    Open your command prompt or terminal inside the project folder and run:
    ```bash
-   pip install -r requirements.txt
+   cd ".\Multiple Disease Prediction System"
    ```
 
 2. **Download the Datasets:** (Only needed once)
@@ -41,6 +41,6 @@ Follow these simple steps to run the project on your local machine:
 4. **Start the Web Application:**
    Run the Streamlit app to interact with the system:
    ```bash
-   streamlit run app.py
+   python -m streamlit run app.py
    ```
    *(This will automatically open the web interface in your default browser!)*
